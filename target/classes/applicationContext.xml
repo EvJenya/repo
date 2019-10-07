@@ -11,4 +11,9 @@
           class="springtest.RockMusic">
     </bean>
 
+    <bean id="musicPlayer"
+          class="springtest.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
